@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signed In</title>
+</head>
+<body>
+Signed In
+<form action="signIn" type="post">
+    {% csrf_token %}
+    <button name="button"> Sign In </button>
+</form>
+</body>
+</html>

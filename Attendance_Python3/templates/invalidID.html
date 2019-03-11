@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retry login</title>
+</head>
+<body>
+Invalid ID
+<form action="signIn" type="post">
+    {% csrf_token %}
+    <button name="Sign In"> Sign In </button>
+</form>
+<form action="signOut" type="post">
+    {% csrf_token %}
+    <button name="Sign Out"> Sign Out </button>
+</form>
+</body>
+</html>

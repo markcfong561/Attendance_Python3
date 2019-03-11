@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signed Out</title>
+</head>
+<body>
+Signed Out
+<form action="signOut" type="post">
+    {% csrf_token %}
+    <button name="button"> Sign Out </button>
+</body>
+</html>
